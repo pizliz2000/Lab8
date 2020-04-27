@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Откуда"
+        />
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/autocomplete"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Куда"/>
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/autocomplete1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextPage"
+        android:text="Start"/>
+
+</LinearLayout>
